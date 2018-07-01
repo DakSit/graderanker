@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graderanker", "graderanker\graderanker.csproj", "{48B9F394-1BC8-4633-9AE9-483F645D7203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeRanker", "graderanker\GradeRanker.csproj", "{48B9F394-1BC8-4633-9AE9-483F645D7203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graderanker.Tests", "UnitTestProject1\Graderanker.Tests.csproj", "{669BA40D-D7B7-4E1A-B127-4CDE4EBB9735}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{48B9F394-1BC8-4633-9AE9-483F645D7203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B9F394-1BC8-4633-9AE9-483F645D7203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B9F394-1BC8-4633-9AE9-483F645D7203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669BA40D-D7B7-4E1A-B127-4CDE4EBB9735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669BA40D-D7B7-4E1A-B127-4CDE4EBB9735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669BA40D-D7B7-4E1A-B127-4CDE4EBB9735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669BA40D-D7B7-4E1A-B127-4CDE4EBB9735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

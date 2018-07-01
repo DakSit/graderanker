@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace graderanker
 {
-    class GradeBook
+    public class GradeBook
     {
 
         public GradeBook()
@@ -19,7 +19,6 @@ namespace graderanker
             GradeStatistics stats = new GradeStatistics();
             stats.HighestGrade = 0;
             stats.LowestGrade = 100;
-
             float sum = 0;
             foreach (float grade in grades)
             {
@@ -37,6 +36,5 @@ namespace graderanker
         }
 
         List<float> grades;
-        internal bool HighestGrade;
     }
 }

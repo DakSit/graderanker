@@ -10,6 +10,7 @@ namespace graderanker
     {
         static void Main(string[] args)
         {
+            
             GradeBook book = new GradeBook();
             book.AddGrade(91);
             book.AddGrade(87.5f);
@@ -23,7 +24,13 @@ namespace graderanker
             Console.WriteLine(stats.HighestGrade);
             Console.WriteLine(stats.LowestGrade);
             Console.WriteLine(stats.AverageGrade);
+           
+            
+        }
 
+        static void WriteResult(string description, float result)
+        {
+            Console.WriteLine(description + ": " + result);
         }
     }
 }
